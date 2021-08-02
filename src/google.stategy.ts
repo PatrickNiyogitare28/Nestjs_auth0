@@ -7,9 +7,9 @@ Injectable()
 export class GoogleStrategy extends PassportStrategy(Strategy, 'google'){
     constructor(){
         super({
-            clientID: '864533887604-jf77e415ojl2njgd26k4reilpck874cr.apps.googleusercontent.com',
-            clientSecret: 'tntHJpaxEbp8cBpMoF3b2GAO',
-            callbackURL: 'http://localhost:3000/auth/google/callback',
+            clientID: '',
+            clientSecret: '',
+            callbackURL: '', //some thing like http://localhost:3000/auth/google/callback
             scope: ['email','profile']
         })
     }
